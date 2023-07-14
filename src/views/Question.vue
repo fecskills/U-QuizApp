@@ -1,16 +1,10 @@
-<script setup lang="ts">
-import { IQuestion } from '../types'
-// const {question} = defineProps(["question"]);
-interface Prop {
-    question: IQuestion
-}
-const { question } = defineProps<Prop>()
+<script setup>
+const {question} = defineProps(["question"]);
 
 </script>
 
 <template>
     <div class="question-coontainer">
-        {{ question }}
         <h1 class="pt-5 pb-2">{{ question.text }}</h1>
         <div class="option-container">
             <div class="option" v-for="option in question.options">
