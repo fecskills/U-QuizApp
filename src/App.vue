@@ -62,7 +62,7 @@ const setfilter = (filter) => {
 <template>
     <section class="todoApp">
         <div>
-            <h1 class="text-center">Todo App</h1>
+            <h1 class="text-center mt-3 fw-bold">Track Your Todo</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mx-auto">
