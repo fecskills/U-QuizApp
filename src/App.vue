@@ -65,7 +65,7 @@ const setfilter = (filter) => {
             <h1 class="text-center mt-3 fw-bold">Track Your Todo</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 mx-auto">
+                    <div class="mx-auto">
                         <div class="d-flex flex-column">
                             <div class="d-flex">
                                 <input v-model.trim="newTodo.content" @keyup.enter="addTodo" type="text"
