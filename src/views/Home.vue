@@ -26,7 +26,7 @@ watch(search, (val) => {
             </div>
         </section>
         <section class="">
-            <h4 class="pt-5 px-4">Available Quizes</h4>
+            <h4 class="pt-5 px-4">Available Quiz</h4>
             <div class="d-flex flex-wrap mx-auto w-1000">
                 <Card v-for="quiz in quizes" :key="quiz.id" :quiz="quiz" />
             </div>
